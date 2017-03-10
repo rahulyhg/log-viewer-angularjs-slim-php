@@ -1,0 +1,38 @@
+How To Run the Backend (API):
+    Pre-requisites:
+    - PHP ^5 is installed
+    - Composer is installed
+
+    
+    Run these commands:
+    Go to backend api dir.
+    `cd webapp/backend/api/`
+
+    Install the PHP dependencies using composer
+    `composer install` or `php composer.phar install`
+
+    Run the tests:
+    FileChecker class test: `vendor/bin/phpunit --bootstrap lib/FileCheckerDev.php tests`
+    Log Viewer API test:
+    
+    * Tests should be OK and no errors.
+
+    Run the php built-in web server:
+    `php -S localhost:8080 -t public`
+
+    Test the API via cURL:
+    curl -Gv "http://localhost:8080/log?file=sample.log"
+
+How To Run the Frontend (open another terminal window):
+    Pre-requisites:
+    - Ensure you have a built-in web server installed to run the front end.
+
+    Run these commands:
+    Go to webapp dir
+    `cd webapp`
+
+    Run any built-in web server (we'll be using python as an example):
+    `python -m SimpleHTTPServer 8000`
+
+    In your browser input the URL `http://127.0.0.1:8000/`
+

@@ -1,0 +1,21 @@
+{
+	"name": "rpebenito/log-viewer-backend-slim",
+    "authors": [
+        {
+            "name": "Randolph Pe Benito",
+            "email": "randolphpebenito@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "palanik/corsslim": "dev-slim3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "rpebenito\\LogViewerAPI\\" : "src"
+        }
+    }
+}

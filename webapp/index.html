@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='webapp'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log File Viewer | AngularJS</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Load FrontEnd Env Variables -->
+    <script src='./env/config.js'></script>
+
+	<! -- Angular CDN -->
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js'></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js'></script>
+
+    <!-- Angular External -->
+    <script src='./js/external/dirPagination.js' ></script>
+
+	<! -- Angular APP -->
+    <script src='./js/app/app.module.js' ></script>
+    <script src='./js/app/app.config.js' ></script>
+    <script src='/js/app/resource/content/content.module.js' ></script>
+    <script src='/js/app/resource/content/content.service.js' ></script>
+
+    <script src='./js/app/log-viewer/log-viewer.module.js' ></script>
+    <script src='./js/app/log-viewer/log-viewer.component.js' ></script>
+
+
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class='col-sm-6 col-sm-offset-3'>
+                <h1 class='text-center'>AngularJS | PHP Slim Framework</h1>
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+	 
+	
+  </body>
+</html>

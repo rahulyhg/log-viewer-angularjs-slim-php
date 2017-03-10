@@ -1,0 +1,5 @@
+Setting Up Backend Env Var Config:
+go to -> `cd PROJECT_DIR/webapp/backend/etc/env/env.source`
+
+Setting Up Frontend Env Var Config:
+go to -> `cd webapp/env/config.js`
