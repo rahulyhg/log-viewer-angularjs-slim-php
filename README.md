@@ -3,12 +3,12 @@ A simple log viewer built with AngularJS and PHP Slim Framework
 
 ## Quickstart
 ###Run the backend:
-Go to 
-`cd ./webapp/backend/api/`
-Install dependencies 
-`composer install` or `php composer.phar install`
-Or go to -> https://getcomposer.org/download/ to install composer locally.
-Run built in web server
+Go to  
+`cd ./webapp/backend/api/`  
+Install dependencies  
+`composer install` or `php composer.phar install`  
+Or go to -> https://getcomposer.org/download/ to install composer locally.  
+Run built in web server  
 `php -S localhost:8080 -t public`
 
 ###Run the frontend (separate terminal window):
